@@ -3,7 +3,7 @@
     <div class="g-view-container">
      <keep-alive>
         <transition :name="transitionName">
-          <!-- 显示不同组件页面 -->
+          <!-- 显示不同的组件页面 -->
           <router-view></router-view>
         </transition>
      </keep-alive>
@@ -16,6 +16,7 @@
 </template>
 
 <script>
+// 哈哈我在这
 // 导入 tabbar组件
 // import loading from "@/compnents/loading";55
 import TabBar from "@/components/tabbar";
